@@ -17,3 +17,8 @@
 - 웹페이지에 사진띄우기, 동영상 및 오디오 재생하기
 
 ![사진](https://raw.githubusercontent.com/Hsegunn/HTMLStudy/main/image/image3.png)
+
+#### 3일차
+- form 태그를 이용한 html 학습
+
+![form태그](https://raw.githubusercontent.com/Hsegunn/HTMLStudy/main/image/image4.png)

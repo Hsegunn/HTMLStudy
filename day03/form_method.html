@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form_method</title>
+    </head>
+    <body>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>개인정보입력</legend>
+                이름<input type="text" name="name"><br>
+                나이<input type="text" name="age"><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+
+</html>
+
+<!--
+    action속성에는 폼데이터가 전달된 url을 명시
+    action="http://210.119.14.71:5500/form.jsp/"
+    method속성은 전송방식을 나타냄
+    get방식은 주소 url끝에 폼데이터를 실어 보낸다(간단, 보안취약)
+-->
