@@ -51,3 +51,14 @@
     - 반응 선택자: 사용자가 마우스로 특정한 행동을 취했을 때 CSS 속성을 지정 할 수 있음
 
     ![반응 선택자](https://raw.githubusercontent.com/Hsegunn/HTMLStudy/main/image/image5.gif)
+
+#### 6일차
+- CSS 학습
+    - CSS display학습
+    - border를 이용하여 body 꾸미기
+
+    ![borderSolid](https://raw.githubusercontent.com/Hsegunn/HTMLStudy/main/image/image6.png)
+
+    - background 이미지 삽입
+
+    ![backgroundIMG](https://raw.githubusercontent.com/Hsegunn/HTMLStudy/main/image/image7.png)
