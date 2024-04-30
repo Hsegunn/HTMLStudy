@@ -62,3 +62,10 @@
     - background 이미지 삽입
 
     ![backgroundIMG](https://raw.githubusercontent.com/Hsegunn/HTMLStudy/main/image/image7.png)
+
+#### 7일차
+- CSS 학습
+    - font-family를 이용하여 글꼴바꾸기
+    - text-align을 이용하여 글 정렬하기
+    - text-shadow를 이용하여 글에 그림자넣기
+    - position을 이용하여 도형의 위치를 지정

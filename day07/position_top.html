@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>position_top</title>
+        <style>
+            .box{
+                width: 100px;
+                height: 100px;
+                position: absolute;
+            }
+            .box:nth-child(1){
+                background-color: beige;
+                left: 10px; top: 10px;
+                z-index: 2;
+            }
+            .box:nth-child(2){
+                background-color: aquamarine;
+                left: 50px; top: 50px;
+                z-index: 3;
+
+            }
+            .box:nth-child(3){
+                background-color: aqua;
+                left: 100px; top: 100px;
+                z-index: 1;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </body>
+
+</html>
+<!--
+    z-index는 도형의 우선순서를 지정(position이 지정되어 있어야함)
+-->
