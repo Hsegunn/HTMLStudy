@@ -1,0 +1,29 @@
+.contanier{
+    padding-top: 100px;
+    background: beige;
+    height: 100vh;
+
+    display: flex;
+}
+.item{
+    width: 40px; height: 40px;
+    border: 1px solid black;
+}
+.item1{
+    background-color: blanchedalmond;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+
+    /* flex-basis: 60%; */
+    /* flex: 2 2 auto - grow shrink basis */
+
+    align-self: center; /*아이템을 개별적용 */
+}
+.item2{
+    background-color: slategray;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.item3{
+    background-color: rgb(204, 149, 67);
+}

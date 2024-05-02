@@ -1,0 +1,48 @@
+body{
+    font-size: 2rem;
+    font-weight: bold;
+}
+body{
+    width: 100vw; height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px auto 50px;
+    grid-template-areas:
+        'h h'
+        'm s'
+        'f f'
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background-color: black;
+    grid-area: h;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    grid-area: m;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: orange;
+    grid-area: s;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background-color: black;
+    grid-area: f;
+}

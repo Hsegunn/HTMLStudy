@@ -1,0 +1,31 @@
+.contanier{
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px; */
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 10px;
+
+}
+.item2{
+    grid-column: 2 / -1;
+    grid-row: 1 / 3;
+
+}
+
+/*
+    - display: grid하면 그리드 박스를 사용
+    부모 컨테이너를 grid 지정하면 자식은 grid cell이 됨
+    grid 속성: grid-template-columns,
+    grid-template-rows,
+    grid-template-areas
+    grid cell 속성: grid-column-start,
+    grid-column-end,
+    grid-row-start,
+    grid-row-end
+    grid-area
+-----------------------------------------------------------------------
+    grid-template-columns: 100px 100px 100px
+    repeat키워드로 반복횟수 설정
+    grid-template-columns: repeat(3, 20%)
+    grid-template-columns: repeat(3, 1fr)
+*/
