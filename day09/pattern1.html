@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>pattern1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                width: 960;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            #menu{
+                width: 260px;
+                float: left;
+            }
+            #section{
+                width: 700px;
+                float: left;
+            }
+            @media screen and(max-width: 767px){
+                body{width: auto;}
+                #menu{width: auto; float: none;}
+                #section{width: auto; float: none;}
+            }
+        </style>
+    </head> 
+    <body>
+        <div id="menu">
+            <ul>
+                <li>메뉴 A</li>
+                <li>메뉴 B</li>
+                <li>메뉴 C</li>
+                <li>메뉴 D</li>
+            </ul>
+        </div>
+        <div id="section">
+            <h1>title</h1>
+            <p>contents</p>
+        </div>
+    </body>
+
+</html>

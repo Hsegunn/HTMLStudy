@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+}
+.navbar_logo{
+    font-size: 24px;
+    color: skyblue;
+}
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.navbar_menu li{
+    padding: 8px 12px;
+}
+.navbar_icons{      /* 아이콘설정 */
+    list-style: none;
+    color: black;
+
+    display: flex;
+    padding: 0;
+}
+.navbar_menu li:hover{      /* 하이라이트 */
+    background-color: rgb(191, 133, 216);
+    border-radius: 4px;
+}
+@media screen and(max-width:768px){         /* 최대 758px까지정렬 */
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+
+        padding: 8px 24px;
+    }
+    .navbar_menu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar_menu li{
+        width: 100%;
+        text-align: center;
+    }
+    .navbar_icons{      /* 아이콘 중앙정렬 */
+        justify-content: center;
+        width: 100%;
+    }
+}
