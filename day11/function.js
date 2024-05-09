@@ -125,3 +125,5 @@ const printNo = function(){
 }
 randomQuiz('i love you', printYes, printNo);
 randomQuiz('wrong', printYes, printNo);
+
+// 함수이름은 주소
