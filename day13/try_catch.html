@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>try_catch</title>
+    </head>
+    <body>
+        <script>
+            let solution = 55;
+            function test(){
+                try{
+                    let x = document.getElementById("number").value;
+                    console.log(typeof(x));
+                    console.log(typeof(solution));
+                    if(x > solution) throw "값이 큽니다";
+                    else if(x < solution) throw "값이 작습니다";
+                } catch(err){
+                    let e = document.getElementById("msg");
+                    e.innerHTML = '힌트' + err;
+                }
+            }
+
+        </script>
+        <h1>number Guess</h1>
+        <p>1부터 100사이의 숫자를 입력하시오</p>
+        <input type="text" id="number">
+        <button type="button" onclick="test()">숫자추측</button>
+        <p id="msg"></p>
+</body>
+</html>

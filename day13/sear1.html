@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sear1</title>
+    </head>
+    <body>
+        <script>
+            let memNum = parseInt(prompt("입장객 수:")); 
+            let colNum = parseInt(prompt("한줄에 몇 명씩 앉습니까?")); 
+
+            if (memNum % colNum == 0) rowNum = parseInt(memNum / colNum);
+            else rowNum = parseInt(memNum / colNum) + 1;
+
+            document.write("<h2>좌석 배치:</h2>");
+            document.write("<table border='1'>");
+                for (let i = 0; i < rowNum; i++) {
+                document.write("<tr>");
+                    for (let j = 0; j < colNum; j++) {
+                        seatNumber = (i * colNum) + j + 1;
+                        if (seatNumber <= memNum) {
+                            document.write("<td>좌석 " + seatNumber + "</td>");
+                        } else {
+                            document.write("<td></td>");
+                        }
+                    }
+                    document.write("</tr>");
+            }
+            document.write("</table>");
+    </script>
+</body>
+</html>

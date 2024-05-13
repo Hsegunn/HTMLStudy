@@ -100,3 +100,22 @@
 
 #### 12일차
 - 자바 스크립트 학습
+    - 클래스 학습
+    - HTMLCollection : javascript가 문서객체에 접근해서 받아오는 리턴타입(배열)
+    - HTMLCollection 객체를 반환하는 메서드(DOM요소에 접근)
+        - getElementByTagName('name')
+        - getElementByClassName('name')
+        - getElementById('id')
+
+#### 13일차
+- 자바 스크립트 내용정리
+    - DOM (Document Object Model)
+        - 자바스크립트를 HTML에 적용하기 위해서 HTML의 요소를 문서객체형태로 이해하는 것
+    - DOM API
+        - Document : <html> dom 트리의 루트노드 (문서전체)
+        - Element : 각 태그
+        - arribute : 속성
+        - style : css
+        - collection : 배열..
+    - textContent : 노드의 text에 접근하여 출력
+    - innerHTML : 

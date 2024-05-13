@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sear2</title>
+    </head>
+    <body>
+        <script>
+            let memNum = parseInt(prompt("입장객 수:"));
+            let colNum = parseInt(prompt("한줄에 몇 명씩 앉습니까?")); 
+
+            if (memNum % colNum == 0) rowNum = parseInt(memNum / colNum);
+            else rowNum = parseInt(memNum / colNum) + 1;
+            console.log(rowNum);
+            console.log(colNum);
+
+            for (let i = 0; i < rowNum; i++) {
+                document.write("</br>");
+                for (let j = 0; j < colNum; j++) {
+                    document.write(i * colNum + j + 1 + " ");
+                }
+            }
+    </script>
+</body>
+</html>
