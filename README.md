@@ -118,4 +118,15 @@
         - style : css
         - collection : 배열..
     - textContent : 노드의 text에 접근하여 출력
-    - innerHTML : 
+
+#### 14일차
+- 자바 스크립트 학습
+    - async
+        - callback: js에서 함수는 object. 그래서, 함수는 다른 함수의 인자로 쓰일 수도 어떤 함수에 의해 리턴 될 
+                    수도 있음. 이런 함수를 고차 함수. 결국, 인자로 넘겨지는 함수를 콜백 함수라고 한다
+        - async await
+            - promise: 콜백함수 대신에 사용하는 비동기 오브젝트, producer와 consumer를 연결해주는 js객체
+            - Producer: promise를 사용해서 비동기 실행함수를 만들고 실행결과 성공하면 resolve(value)호출,
+                        결과값을 consumer에게 전달 실패하면 reject(error)를 전달
+            - 상태: 대기(pending), 거절(reject), 이행(fulfilled)
+            - consumer: then()
