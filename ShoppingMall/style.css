@@ -1,0 +1,116 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  
+}
+.items{
+  display: flex;
+  flex-direction: column;
+  height: 60%; width: 60%; overflow-y: scroll;
+  list-style-type: none; 
+  padding-left: 0;
+}
+.item{
+  display: flex;
+  align-items: center;
+  align-items: center;
+  background-color: var(--color-white); 
+  padding: 10px;
+  > img {
+    height: 50px;
+    width: 50px;
+  }
+}
+.item_description{
+  text-align: left; 
+}
+.totalBtn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.btn_pants{
+  background-color:var(--color-black);
+  border:none;
+  > img {
+    height: 50px;
+    width: 50px;
+  }
+}
+.btn_skirt{
+  background-color:var(--color-black);
+  border:none;
+  > img {
+    height: 50px;
+    width: 50px;
+  }
+}
+.btn_tshirt{
+  background-color:var(--color-black);
+  border:none;
+  > img {
+    height: 50px;
+    width: 50px;
+  }
+}
+.btn:hover {
+  background-color:var(--color-white);
+  transition: 2.0s;
+  border-radius:50px;
+}
+.btn_blusColor{
+  font-size: 14px;
+
+  background-color:var(--color-blue);
+  height: 45px; width: 55px;
+  border:none;
+  border-radius:4px;  
+  
+}
+.btn_blusColor:hover{
+  background-color:var(--color-white);
+  transition: 0.5s;
+}
+.btn_yellowColor{
+  font-size: 14px;
+  background-color:var(--color-yellow);
+  height: 45px; width: 55px;
+  border:none;
+  border-radius:4px;
+}
+.btn_yellowColor:hover{
+  background-color:var(--color-white);
+  transition: 0.5s;
+}
+.btn_pinkColor{
+  font-size: 14px;
+
+  background-color:var(--color-pink);
+  height: 45px; width: 55px;
+  border:none;
+  border-radius:4px;
+}
+.btn_pinkColor:hover{
+  background-color:var(--color-white);
+  transition: 0.5s;
+}

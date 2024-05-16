@@ -130,3 +130,8 @@
                         결과값을 consumer에게 전달 실패하면 reject(error)를 전달
             - 상태: 대기(pending), 거절(reject), 이행(fulfilled)
             - consumer: then()
+
+#### 15일차
+- 자바 스크립트 학습
+    - Fetch API: 백엔드와 통신하는 API, fetch(url, option) return은 promise타입의 객체
+    - .then(): promise를 처리할 수 있는 메서드
