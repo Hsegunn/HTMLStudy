@@ -135,3 +135,5 @@
 - 자바 스크립트 학습
     - Fetch API: 백엔드와 통신하는 API, fetch(url, option) return은 promise타입의 객체
     - .then(): promise를 처리할 수 있는 메서드
+
+- 자바 스크립트 옷 필터링 프로그램 만들기
